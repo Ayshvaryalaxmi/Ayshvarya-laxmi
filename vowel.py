@@ -2,8 +2,8 @@ character=str(input())
 l=['a','e','i','o','u']
 if character.isalpha():
 	if(character in l):
-		print("vowel")
+		print("Vowel")
 	else:
-		print("consonant")
+		print("Consonant")
 else:
-	print("Invalid input"
+	print("Invalid input")
