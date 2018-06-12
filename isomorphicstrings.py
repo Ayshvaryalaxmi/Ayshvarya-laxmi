@@ -10,3 +10,5 @@ if n==m:
 		print("yes")
 	else:
 		print("no")
+else:
+	print("no")
