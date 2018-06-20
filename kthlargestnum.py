@@ -7,5 +7,5 @@ l=input()
 l=l.split(" ")
 for i in l:
 	List.append(int(i))
-L=sorted(l, reverse=True)
+L=sorted(List, reverse=True)
 print(L[k-1])
