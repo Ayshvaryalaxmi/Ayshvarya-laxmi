@@ -34,8 +34,8 @@ return 1;
 
 
 void stack :: display()
-{for(itr=vec.begin();itr!=vec.end(); ++itr)
-cout<<*itr<<endl;
+{for(ir=vec.rbegin();ir!=vec.rend(); ++ir)
+cout<<*ir<<endl;
 }
 
 int main()
