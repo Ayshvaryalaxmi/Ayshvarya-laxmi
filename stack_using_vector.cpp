@@ -19,9 +19,9 @@ void stack :: push(int val)
 }
 
 int stack :: pop()
-{ir=vec.rbegin();
-int n=*ir;
-vec.erase(n);
+{itr=--vec.end();
+int n=*itr;
+vec.erase(itr);
 return n;
 }
 
@@ -29,7 +29,7 @@ int stack :: isempty()
 {if(vec.empty())
 return 0;
 else
-return 1
+return 1;
 }
 
 
@@ -74,7 +74,7 @@ default:
 	cout<<"Enter valid choice\n";
 	break;
 }
-}while(n!=3)
+}while(n!=4);
         
 return 0;
 }
