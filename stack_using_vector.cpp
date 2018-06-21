@@ -48,7 +48,7 @@ switch(n)
 {case 1:
 	cout<<"Enter the number to be pushed\n";
 	cin>>val;
-	if(val>0 && val<25000)
+	if(val>=0 && val<25000)
 	{s.push(val);
 	 cout<<val<<" was successfully pushed into the stack\n";
 	}
