@@ -6,21 +6,22 @@ using namespace std;
 class stack
 {vector <int> vec;
  vector <int> :: iterator itr;
+ vector <int> :: reverse_iterator ir;
  public:
  void push(int);
  int pop();
  int isempty();
  void display();
-}
+};
 
 void stack :: push(int val)
 {vec.push_back(val);
 }
 
 int stack :: pop()
-{int val=vec.rbegin();
-int n=*val;
-vec.erase(val);
+{ir=vec.rbegin();
+int n=*ir;
+vec.erase(n);
 return n;
 }
 
@@ -74,7 +75,6 @@ default:
 	break;
 }
 }while(n!=3)
-}
         
-	return 0;
+return 0;
 }
