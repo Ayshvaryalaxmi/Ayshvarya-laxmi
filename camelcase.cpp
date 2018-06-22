@@ -7,7 +7,7 @@ int main() {
 	int i,j=0;
 	cout<<"enter the string\n";
 	cin.get(str,100);
-	for(i=0;str[i]!=]'\0';i++)
+	for(i=0;str[i]!='\0';i++)
 	{if(str[i]!=' ')
 	 {word[j]=str[i];
 	  j++;
@@ -19,5 +19,8 @@ int main() {
 	  j=0;
 	 }
 	}
+	word[j]='\0';
+	word[0]=toupper(word[0]);
+	cout<<word<<' ';
 	return 0;
 }
