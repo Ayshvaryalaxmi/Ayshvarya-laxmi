@@ -45,9 +45,6 @@ int main()
 	if (n==1)
  	b[i]=s.pop();
  }
- 
- for (int i=0;b[i]!='\0';i++)
- { cout<<b[i];
- }
-return 0;
+ cout<<b;
+ return 0;
 }
