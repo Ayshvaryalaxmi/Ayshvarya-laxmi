@@ -1,0 +1,6 @@
+n=int(input())
+s=input()
+num=s.split(" ")
+num=sorted(num, reverse=True)
+num=int("".join(num))
+print(num)
