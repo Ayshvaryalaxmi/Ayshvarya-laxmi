@@ -40,12 +40,14 @@ int main()
  for (int i=0;c[i]!='\0';i++)
  { s.push(c[i]);
  }
- for (int i=0;i<n;i++)
+ for (int i=0;c[i]!='\0';i++)
  {	n=s.isempty();
 	if (n==1)
- 	b[i]=s.pop()
+ 	b[i]=s.pop();
  }
  
-        
+ for (int i=0;b[i]!='\0';i++)
+ { cout<<b[i];
+ }
 return 0;
 }
