@@ -9,7 +9,7 @@ int main() {
 	cin.get(str,100);
 	for(i=0;str[i]!='\0';i++)
 	{if(str[i]!=' ')
-	 {word[j]=str[i];
+	 {word[j]=tolower(str[i]);
 	  j++;
 	 }
 	 else
